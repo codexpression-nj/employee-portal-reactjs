@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+.hero_home {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 90%;
+  margin-top: 7rem;
+  text-align: start;
+}
+.hero_home_illustration {
+  width: 60%;
+}
+.hero__home .showcase {
+  max-width: 50%;
+}
+.hero__home .showcase__title {
+  margin-bottom: 2rem;
+  font-size: 3.5rem;
+  color: #34A5FE;
+}
+.hero__home .showcase__text {
+  max-width: 35ch;
+}
+
